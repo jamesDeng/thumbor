@@ -74,4 +74,4 @@ ENTRYPOINT ["/docker-entrypoint.sh"]
 # to override and run thumbor solo, set THUMBOR_NUM_PROCESSES=1 or unset it
 CMD ["circus"]
 
-EXPOSE 80 8888
+EXPOSE 8000 8888
